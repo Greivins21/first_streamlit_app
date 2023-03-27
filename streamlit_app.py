@@ -65,7 +65,7 @@ if streamlit.button('Get Fruit Load List'):
   streamlit.dataframe(my_data_rows)
   
   
-  
+streamlit.stop()
   
 ##Create second entry box
 add_my_fruit = streamlit.text_input('What fruit woudl you like to add?','Example> Mamon')
